@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# Models (large binary files — download separately)
+models/*.onnx
+models/*.pth
+models/*.pkl
+
+# Output files
+output/
+outputs/
+*.mp4
+*.avi
+*.mov
+
+# Temp / cache
+temp/
+tmp/
+*.tmp
+switch_states.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Insightface cache
+.insightface/
